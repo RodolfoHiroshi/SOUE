@@ -1,0 +1,38 @@
+# Build e publicação
+bin/
+obj/
+out/
+publish/
+
+# Configurações do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Arquivos de pacotes
+*.nupkg
+*.snupkg
+
+# Diretórios de testes e cobertura
+TestResults/
+coverage/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Outros
+*.swp
+*.bak
+*.orig
